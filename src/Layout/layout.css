@@ -1,0 +1,131 @@
+
+.main {
+    display: flex;
+    min-height: 80vh;
+    overflow: scroll;
+    padding: 1rem 0.5rem;
+    background-color: rgb(235, 240, 243);
+    padding-bottom: 25rem;
+    /* color: rgb(16, 42, 59); */
+}
+
+
+.main .main-aside {
+    flex-basis: 20%;
+    flex-shrink: 0;
+    flex-grow: 0;
+    min-height: 40vh;
+    background-color: rgb(22,72,81);
+    border-radius: 1rem;
+    padding:3rem 1.5rem;
+}
+
+.main .main-content {
+    flex-basis: 80%;
+    flex-shrink: 0;
+    flex-grow: 0;
+    padding: 2rem 0.5rem;
+}
+
+/* NavBar Styles */
+/* NavBar Styles */
+.app-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+    border: 1px solid rgb(204, 208, 209);
+    padding: 1.2rem;
+    color: rgb(22,72,81);
+}
+.logo-group {
+    margin: 0;
+    width: 14%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo{
+    flex-grow: 1
+}
+.logo svg{
+    height: 2.6rem;
+}
+.logo-name {
+    flex-grow: 1;
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.nav-items{
+    list-style-type:none;
+    display: inline;
+}
+.nav-items li{
+    margin: 0 1rem;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+.nav-items li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(55, 124, 136)
+}
+.app-footer {
+    display:flex;
+    padding: 80px 0;
+    min-height: 30vh;
+    background-color: rgb(22,72,81);
+}
+
+
+/* Footer styles */
+.footer-double-span  {
+    flex-grow: 2;
+}
+.footer-single-span {
+    flex-grow: 1;
+}
+.footer-section {
+    height: 300px;
+    padding: 0 25px;
+    color: whitesmoke;
+    text-align: left;
+}
+.footer-section-heading {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.footer-section-listing {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+.footer-section-listing li{
+    font-size: 14px;
+    font-weight: normal;
+    padding: 8px 2px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+.footer-section-listing li:hover{
+    transform: scale(1.05);
+}
+
+.footer-logo-group {
+   display: flex;
+   align-items: center;
+   justify-self: start;
+}
+.footer-logo-group svg {
+    height: 2rem;
+}
+.footer-logo-group .logo-text{
+    margin-left: 5px;
+    font-size: 22px;
+    font-weight: bolder;
+ }
