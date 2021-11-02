@@ -1,0 +1,24 @@
+.emp-table-row {
+    height: 6rem;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.table-row-action {
+    margin: 0 8px;
+    cursor: pointer;
+}
+.table-row-action a{
+    color: rgb(8, 51, 49);
+}
+.emp-table-row td{
+    padding-left: 2rem;
+}
+
+.emp-row-avatar {
+    display: inline-block;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 0 5px -10px 0;
+}
