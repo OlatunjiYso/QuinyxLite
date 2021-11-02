@@ -1,0 +1,37 @@
+.info-card {
+    border: 1px solid rgb(225, 228, 228);
+    background-color: white;
+    padding: 1.5rem;
+    margin-left:10px;
+}
+
+.info-card-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.info-card-heading {
+border-bottom: 1px solid rgb(208, 209, 209);
+ margin-bottom: 2rem;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+}
+.info-card-item h6 {
+text-align: left;
+margin-bottom: 0;
+flex-basis: 48%;
+flex-grow: 0;
+flex-shrink: 0;
+}
+.info-card-item span {
+ color:rgb(140, 141, 141);
+ text-align: right;
+ margin-bottom: 0;
+ flex-basis: 48%;
+ flex-grow: 0;
+ flex-shrink: 0;
+}
