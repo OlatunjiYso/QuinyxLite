@@ -1,0 +1,33 @@
+.menu-card {
+color: whitesmoke;
+text-align: left;
+}
+
+.menu-card-title {
+ font-weight: bold;
+ text-decoration: underline;
+}
+
+.menu-card-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-card-list li {
+    margin: 2rem 0;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.menu-card-list li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.menu-card-list li:hover{
+   transform: scale(1.05);
+}
+
+.menu-card-list li span{
+    margin: 0 10px
+}
